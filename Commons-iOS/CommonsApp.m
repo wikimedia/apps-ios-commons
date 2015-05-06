@@ -75,7 +75,7 @@ static CommonsApp *singleton_;
 
 - (MWEventLogging *)setupLog
 {
-    NSURL *endPoint = [NSURL URLWithString:@"https://bits.wikimedia.org/event.gif"];
+    NSURL *endPoint = [NSURL URLWithString:@"https://meta.wikimedia.org/beacon/event"];
     return [[MWEventLogging alloc] initWithEndpointURL:endPoint];
 }
 
